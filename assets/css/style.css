@@ -113,8 +113,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.075);
+  color: #186fd2;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -124,6 +124,7 @@ h6 {
 
 #header .social-links a:hover {
   background: #186fd2;
+  color: #ffffff;
 }
 
 @media (max-width: 992px) {
