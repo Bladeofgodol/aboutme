@@ -521,8 +521,7 @@ section .container {
   align-items: center;
   padding: 20px;
   width:100%;
-  border-radius:20px;
-  transition: ease-in-out 0.3s;
+
   
 }
 
@@ -541,9 +540,6 @@ section .container {
   color: #fff;
 }
 
-.interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
-}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1166,11 +1162,12 @@ section .container {
 }
 
 .coffee{
-	font:#0062cc;
+	color:#ffff;
+	border-radius:20px;
+	transition: ease-in-out 0.3s;
 }
-.coffee:hover{
-	font:#fffff;
-	background-color:#0062cc;
+.coffee:hover {
+  background: rgba(9,72,178, 0.3);
 }
 
 /*--------------------------------------------------------------
